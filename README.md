@@ -1,4 +1,5 @@
 # Django_Project_Template
+<<<<<<< HEAD
 
 A Django Template with Separate settings configurations for various environments to serve as boilerplate code for Other Django Projects(Not thoroughly tested yet)
 
@@ -31,3 +32,6 @@ To indicate a different environment, put an environment variable in the target m
 Will add other operations such as minification later.
 
 Will create a dockerized version of this setup that uses docker-compose later(possibly in another github repo).
+=======
+Boilerplate code that uses separate settings for various environments.
+>>>>>>> 321ba89e29a3bec7b3cc3781f2dee372d86ba3b7
