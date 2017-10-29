@@ -1,11 +1,10 @@
 # Django_Project_Template
-<<<<<<< HEAD
 
 A Django Template with Separate settings configurations for various environments to serve as boilerplate code for Other Django Projects(Not thoroughly tested yet)
 
 ### Description
 
-Contains separate settings files for various environments:
+Boilerplate code that uses separate settings for various environments:
 
 	1. local - settings_local.py
 	2. staging - settings_staging.py
@@ -32,6 +31,3 @@ To indicate a different environment, put an environment variable in the target m
 Will add other operations such as minification later.
 
 Will create a dockerized version of this setup that uses docker-compose later(possibly in another github repo).
-=======
-Boilerplate code that uses separate settings for various environments.
->>>>>>> 321ba89e29a3bec7b3cc3781f2dee372d86ba3b7
