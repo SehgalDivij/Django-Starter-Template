@@ -31,3 +31,5 @@ To indicate a different environment, put an environment variable in the target m
 Will add other operations such as minification later.
 
 Will create a dockerized version of this setup that uses docker-compose later(possibly in another github repo).
+
+
