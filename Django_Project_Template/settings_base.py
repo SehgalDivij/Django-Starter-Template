@@ -32,6 +32,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    # Make corrections to refer to proper names
+    'Django_Project_Template.logging_middleware.RequestLogMiddleware',
 ]
 
 # Replace Django_Project_Template with Your root urls.py directory
@@ -94,3 +96,10 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+
+# Import Logger Configuration
+try:
+    from .config_logger import *
+except Exception as er:
+    print(er)
