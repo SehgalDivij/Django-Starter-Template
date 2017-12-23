@@ -1,4 +1,4 @@
-# Django_Project_Template
+# Django-Starter-Template
 
 A Django Template with Separate settings configurations for various environments to serve as boilerplate code for Other Django Projects(Not thoroughly tested yet)
 
